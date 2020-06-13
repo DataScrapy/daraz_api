@@ -131,7 +131,7 @@ def scrap(main_url):
 
         root_dir = os.path.dirname(os.path.abspath(__file__))
 
-        driver = webdriver.Chrome(options=options, executable_path=root_dir + '/chromedriver')
+        driver = webdriver.Chrome(options=options)
 
         driver.maximize_window()
 
