@@ -4,5 +4,5 @@ html.parser
 bs4==0.0.1
 selenium==3.141.0
 mysql-connector==2.2.9
-flask==1.1.2
+flask==2.3.2
 chromedriver.exe
